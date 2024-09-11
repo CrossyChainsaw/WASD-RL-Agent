@@ -42,8 +42,17 @@ The custom environment is based on Gymnasium and interacts with a Windows Forms 
 - Observation Space: Grayscale screenshots of the full screen, resized to 84x84 pixels
 - Rewards: The agent receives a reward of 1 for a successful action and 0 for an unsuccessful action.
 
+The Environment (WASD the game)
+
+![WASD2024-09-1120-21-34-ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/0dca93f1-40e3-4026-93bc-b38cd00b5e79)
+
 ## Training Results
-Training was conducted over a series of 130 episodes. Below is a plot that shows the total reward per episode during training:
+Training was conducted over a series of 129 episodes. Below is a plot that shows the total reward per episode during training:
+
+![plot_image](https://github.com/user-attachments/assets/3aa5c9b0-a381-4006-a8e3-fc348b7fd039)
+
 
 ## Testing Results
-The agent was tested over two episodes, each achieving a total reward of 20,000:
+The agent was tested over two episodes, each achieving a total reward of 20,000. 20,000 was the max score. Without a max score the agent would go on forever:
+
+![plot_image2](https://github.com/user-attachments/assets/0786e3e2-d997-458d-b36c-5ff450f14a6d)
