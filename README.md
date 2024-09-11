@@ -39,8 +39,8 @@ The custom environment is based on Gymnasium and interacts with a Windows Forms 
 
 ### Key Components:
 - Action Space: 4 possible actions (W, A, S, D)
-- Observation Space: Grayscale screenshots of the game
-- Rewards: The agent receives positive rewards when the game score increases and negative rewards when it makes a mistake.
+- Observation Space: Grayscale screenshots of the full screen, resized to 84x84 pixels
+- Rewards: The agent receives a reward of 1 for a successful action and 0 for an unsuccessful action.
 
 ## Training Results
 Training was conducted over a series of 130 episodes. Below is a plot that shows the total reward per episode during training:
