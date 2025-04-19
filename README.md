@@ -1,6 +1,6 @@
 # DQN Agent with Convolutional Neural Network for the Game WASD
 
-*This README was initially written for the [`single_frame`](https://github.com/CrossyChainsaw/WASD-RL-Agent/tree/main/single_frame) folder*
+*This README was initially written for the [`single_frame_RL`](https://github.com/CrossyChainsaw/WASD-RL-Agent/tree/main/single_frame) folder*
 
 This project implements a **Deep Q-Network (DQN)** using a **Convolutional Neural Network (CNN)** to interact with and control a Windows Forms-based game. The DQN agent learns from visual input, and the CNN processes game frames to make decisions in real-time. The agent aims to optimize its behavior using reinforcement learning techniques by interacting with the game environment.
 
